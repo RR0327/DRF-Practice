@@ -40,30 +40,26 @@ DRF-Practice/
    ```
    git clone https://github.com/RR0327/DRF-Practice.git
    cd DRF-Practice
-````
+   ```
 
 2. **Create and activate a virtual environment**
-
    ```
    python -m venv env
    source env/bin/activate  # On Windows use `env\Scripts\activate`
    ```
 
 3. **Install dependencies**
-
    ```
    pip install -r requirements.txt
    ```
 
 4. **Run migrations**
-
    ```
    python manage.py makemigrations
    python manage.py migrate
    ```
 
 5. **Start the development server**
-
    ```
    python manage.py runserver
    ```
@@ -85,9 +81,6 @@ Md Rakibul Hassan
 🔗 [LinkedIn](https://www.linkedin.com/in/md-rakibul-hassan-507b00308)
 🐙 [GitHub](https://github.com/RR0327)
 
----
 
 This is a growing repository for exploring Django REST Framework — feel free to clone and experiment!
-
----
 
