@@ -77,10 +77,14 @@ DRF-Practice/
 ## 🙋‍♂️ About Me
 
 Md Rakibul Hassan
-🖥️ CSE Undergraduate | Backend Developer | Robotics & IoT Enthusiast
+
+CSE Undergraduate | Backend Developer | Robotics & IoT Enthusiast
+
 🔗 [LinkedIn](https://www.linkedin.com/in/md-rakibul-hassan-507b00308)
+
 🐙 [GitHub](https://github.com/RR0327)
 
+---
 
 This is a growing repository for exploring Django REST Framework — feel free to clone and experiment!
 
