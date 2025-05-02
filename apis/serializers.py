@@ -1,3 +1,4 @@
+
 # import serializer from rest_framework
 from rest_framework import serializers
 
@@ -5,9 +6,9 @@ from rest_framework import serializers
 from .models import GeeksModel
 
 # Create a model serializer
-class GeeksSerializer(serializers.HyperlinkedModelSerializer):
+class GeeksSerializer(serializers.ModelSerializer):
     
     # specify model and fields
     class Meta:
         model = GeeksModel
-        fields = ('title', 'description')
+        fields = ('id', 'title', 'description') # include id for delete/update
