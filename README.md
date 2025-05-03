@@ -1,3 +1,5 @@
+![Project Banner](Banner_for_DRF.png)
+
 <h1 align="center">DRF-Practice</h1>
 
 This repository contains practice projects and examples built using **Django REST Framework (DRF)**. The goal is to get hands-on experience with building *RESTful APIs* using Django's robust tools and authentication systems.
@@ -120,4 +122,8 @@ CSE Undergraduate | Backend Developer | Robotics & IoT Enthusiast
 
 This is a growing repository for exploring Django REST Framework — feel free to fork, clone, and experiment!
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> c373555651109beef95c08a82fdbac6bdb9f5f94
