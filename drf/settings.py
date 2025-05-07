@@ -172,8 +172,6 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'riyadrakib39@gmail.com'
-EMAIL_HOST_PASSWORD = 'zyvy cxzl edkc zrnl'  # NOT your Gmail login password
 DEFAULT_FROM_EMAIL = 'Verify <your_email@gmail.com>'
 
 REST_AUTH_TOKEN_MODEL = None  # temporarily disable token creation on unverified login
