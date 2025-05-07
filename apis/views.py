@@ -1,15 +1,8 @@
-
-# import viewsets
 from rest_framework import viewsets
-# import local data
-from .serializers import GeeksSerializer
-from .models import GeeksModel
+from .models import RRModel
+from .serializers import RRModelSerializer
 
-# create a viewset
-class GeeksViewSet(viewsets.ModelViewSet):
-    # define queryset
-    queryset = GeeksModel.objects.all()
-
-    # specify serializer to be used
-    serializer_class = GeeksSerializer
-    
+# API ViewSet for RRModel
+class RRModelViewSet(viewsets.ModelViewSet):
+    queryset = RRModel.objects.all()
+    serializer_class = RRModelSerializer
